@@ -1,0 +1,31 @@
+.despre-noi {
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+div .despre-noi1:nth-child(1) {
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px;
+    
+}
+
+#prezentare-logo {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+}
+
+
+
+
+@media only screen and (min-width: 805px) {
+
+    div .despre-noi1:nth-child(1) {
+        grid-template-columns: 400px;
+    }
+}

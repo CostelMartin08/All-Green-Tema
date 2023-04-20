@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/85a489cc30.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Comfortaa:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header-info">
+        <span>Livrare gratuită la comenzi de peste 250 lei</span>
+    </div>
+    <header class="header-section">
+        <div class="header-logo-section">
+            <img class="header-logo-image" src="img/allgreen4.png" alt="logo-image">
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa-solid fa-bars fa-lg"></i></button>
+            <div class="header-menu-section">
+                <ul>
+                    <li>
+                        <a href="index.html">Acasă</a>
+                    </li>
+                    <li>
+                        <a href="magazin.html">Magazin</a>
+                    </li>
+                    <li>
+                        <a href="#">Merch AG</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Despre noi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-user-section">
+            <ul>
+                <li>
+                    <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li>
+                    <a><i class="fa-solid fa-user"></i></a>
+                </li>
+                <li>
+                    <a><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="contact">
+            <div class="contact-section-general">
+                <div class="contact-section-body">
+                    <div class="contact-section">
+
+
+                        <h3 class="title">Contact</h3>
+
+                        <p>îți stăm la dispoziție cu mare drag! Ne poți contacta atât la numarul de telefon 0745381927
+                            cat si la
+                            ceaideceai@gmail.com. Pentru o experință mai simplă îți recomandăm să completezi acest
+                            formular pentru ca
+                            să
+                            te
+                            punem în legătură cu departamentul corespunzător solicitării dumneavoastră!</p>
+
+                    </div>
+
+                    <div>
+                        <iframe title="locatia"
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d21436.726802004923!2d25.798253417015054!3d47.80876651448058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDfCsDQ4JzMxLjYiTiAyNcKwNDgnNTYuOCJF!5e0!3m2!1sro!2sro!4v1679668166135!5m2!1sro!2sro"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-section">
+                <div id="input-body">
+
+                    <h3 class="title">Să incepem!</h3>
+
+                    <form action="procesare.html">
+                        <label for="select">Selecteză un subiect:</label>
+
+                        <select id="select" name="probema" required>
+                            <option value="">Selectează motivul</option>
+                            <option value="Probleme la livrare">Probleme la livrare</option>
+                            <option value="Cum trimit un retur">Cum trimit un retur</option>
+                            <option value="Înlocuire Produse">Înlocuire Produse</option>
+                        </select>
+
+                        <label for="prenume">Prenume:</label>
+                        <input class="input-class" type="text" id="prenume" required>
+
+                        <label for="nume">Nume:</label>
+                        <input class="input-class" type="text" id="nume" required>
+                        <label for="adresa">Adresă de e-mail:</label>
+                        <input class="input-class" type="email" name="adresa" id="adresa" autocomplete="off"
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$" required>
+                        <label for="telefon">Telefon contact:</label>
+                        <div class="telefon">
+                            <select id="input-body-select-phone" name="prefix" required>
+                                <option value="">Pr</option>
+                                <option value="+40">+40</option>
+                                <option value="+1">+1</option>
+                                <option value="+44">+44</option>
+                                <option value="+33">+33</option>
+                            </select>
+                            <input class="input-class" type="tel" id="telefon" placeholder="745631985"
+                                pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
+                        </div>
+
+                        <label for="continut">Conținutul mesajului:</label>
+                        <textarea id="continut" rows="4" cols="20" maxlength="50" autofocus></textarea>
+
+                        <button class="card-color-buttonp" type="submit">Trimite</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="main-suport">
+            <div class="suport">
+                <div class="caseta">
+                    <i class="fa-solid fa-truck-ramp-box fa-2xl" style="color:#609966"></i>
+                    <p>Livrare gratuită</p>
+                    <p class="descriere">La comenzi de peste 250 lei</p>
+                </div>
+                <div class="caseta">
+                    <i class="fa-solid fa-headphones fa-2xl" style="color:#609966"></i>
+                    <p>Suport Specializat</p>
+                    <p class="descriere">Îți stăm la dispoziție tot timpul!</p>
+                </div>
+                <div class="caseta">
+                    <i class="fa-solid fa-wallet fa-2xl" style="color:#609966"></i>
+                    <p>Plată 100% securizată</p>
+                    <p class="descriere">Stai liniștit totul este în regulă</p>
+                </div>
+                <div class="caseta">
+                    <i class="fa-solid fa-circle-check fa-2xl" style="color:#609966"></i>
+                    <p>Accent pe calitate</p>
+                    <p class="descriere">Dacă tot facem lucrurile să le facem bine</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </main>
+    <footer>
+        <hr>
+        <div class="footer-section-first">
+            <div class="newsletter ">
+                <div>
+                    <p class="font">Inscriete aici si fi la curent cu tot ce facem!</p>
+
+                </div>
+                <div>
+                    <spam>Introdu adresa de email si te abonzi la Newsletter-ul nostru</spam>
+                    <div class="footer-send-input">
+                        <input type="email" placeholder="E-mail">
+                        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="info footer-p ">
+                <p class="font">Informatii</p>
+                <ul>
+                    <li>Acasa</li>
+                    <li>Colectii</li>
+                    <li>Contact</li>
+                    <li>Intrebari Frecvente</li>
+                </ul>
+            </div>
+            <div class="link footer-p">
+                <p class="font">Link-uri Utile</p>
+                <ul>
+                    <li>Termeni si Conditii</li>
+                    <li>Confidentialitate</li>
+                    <li>Metoda de Plata</li>
+                    <li>Politica de Returnare</li>
+                </ul>
+            </div>
+            <div class="story footer-p">
+                <p class="font">Povestea</p>
+                <span>Acest proiect a luat naștere din dorința de a crea o comunitate dedicată gazonului. Nu suntem
+                    puțini cei care iubim această monocultură aastfel acest site își propune să centralizeze cele mai
+                    relevante informații din domeniu dar și de a comercializa cele mai bune produse din domeniu!</span>
+            </div>
+        </div>
+        <div class="footer-section-second">
+            <div class="social">
+                <a><i class="fa-brands fa-facebook"></i> </a>
+                <a><i class="fa-brands fa-instagram"></i> </a>
+                <a> <i class="fa-brands fa-twitter"></i></a>
+                <a><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="footer-social">© All Green</div>
+
+        </div>
+
+
+
+
+
+    </footer>
+</body>
+
+</html>

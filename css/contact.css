@@ -1,0 +1,123 @@
+@import url(variabile.css);
+
+
+.contact {  
+    
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    justify-items: center;
+}
+
+.contact-section-general {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section-body {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+}
+
+.contact-section p {
+    font-family: var(--font-family-text);
+    margin-bottom: 30px;
+}
+
+/*FORM*/
+.input-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#input-body {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+}
+
+.title{
+    font-family: var(--font-family-title);
+    font-size: var(--font-medium);
+
+}
+
+form {
+    display: grid;
+    margin-top: 10px;
+}
+
+label {
+    margin: 5px;
+}
+
+select { 
+    border-radius: 5px;
+    height: 34px;
+    width: 100%;
+}
+
+select:focus {
+    border: 2px solid ;
+}
+
+.input-class {
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 30px;
+
+}
+
+.input-class:focus {
+    border: 2px solid black;
+}
+
+#input-body-select-phone {
+    width: 40px;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+textarea:focus {
+    border: 2px solid black;
+}
+
+.card-color-buttonp {
+    background-color: #609966;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+.card-color-buttonp:hover {
+
+    font-size: 16px;
+}
+@media only screen and (min-width: 805px) {
+
+.contact{
+    padding-right: 100px;
+    padding-left: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-section-general {
+
+    padding: 90px;
+}
+.contact-section-body{
+    padding: 50px;
+}
+}
